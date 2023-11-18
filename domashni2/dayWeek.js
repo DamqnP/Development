@@ -1,5 +1,13 @@
-function dayFromTheWeek(input){
-let day=input[0]
-let time=Number(input[1])
+function fS(input){
+let hour=Number(input[0])
+let day=input[1]
+if(day!=="Sunday" && hour>=10 && hour<=18){
+    console.log("open");
+}else{
+    console.log("closed");
 }
-dayFromTheWeek(["f"])
+
+}
+fS(["11",
+
+"Monday"])
