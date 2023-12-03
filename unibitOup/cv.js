@@ -4,7 +4,7 @@ function updateCurrentTime() {
     const hours = now.getHours();
     const minutes = now.getMinutes();
     const seconds = now.getSeconds();
-    const currentTimeString = `${hours}:${minutes}:${seconds}.`;
+    const currentTimeString = `${hours}:${minutes}:${seconds}`;
     const currentTimeDisplay = document.getElementById('currentTimeDisplay');
     currentTimeDisplay.textContent = currentTimeString;
   }
