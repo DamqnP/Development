@@ -3,7 +3,10 @@ body {
     margin: 20px;
     padding: 20px;
     background-color: #f4f4f4;
-}
+    background:  url('https://e0.pxfuel.com/wallpapers/132/564/desktop-wallpaper-fifa-logo-cut-out-3d-text-white-background-fifa-3d-logo-fifa-emblem-fifa-embossed-logo-fifa-3d-emblem.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+} 
 
 h1 {
     color: black;
@@ -51,4 +54,12 @@ table {
 
 td, th {
     border: 1px solid black;
+}
+
+#currentTimeDisplay {
+    position:absolute;
+    right: 0;
+    border:1px solid black;
+    padding: 15px;
+
 }
