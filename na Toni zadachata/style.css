@@ -20,7 +20,7 @@ button{
     
 }
 .left-div{
-    width: 50%;
+    width: 50%; 
     float: left;
     background-color: teal;
     box-sizing: border-box;
