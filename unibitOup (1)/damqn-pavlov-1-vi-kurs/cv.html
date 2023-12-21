@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фен на Барселона</title>
+    <link rel="stylesheet" href="cv.css">
+
+</head>
+<body>
+    
+<div id="currentTimeDisplay"></div>
+    <header>
+        <h1>CV</h1>
+        <h2 class="one">Фен на ФК "Барселона":</h2>
+    </header>
+
+    <section class="section">
+        <h2 class="two">Относно Мен</h2>
+        <p>
+            Казвам се Дамян Павлов и съм страстен футболен ентусиаст с дълбока любов към ФК Барселона. 
+         Моята любов към отбора излиза извън игрището, 
+        </p>
+         <p> 
+            тъй като следя всеки техен мач и съм в течение на последните новини и процеси в клуба.
+        </p>
+        
+    </section>
+
+    <section class="section">
+        <h2 class="one">Опит</h2>
+        <ul type="square">
+            <li>Години на лоялна подкрепа за ФК Барселона</li>
+            <li>Посещение на множество мачове, както у дома, така и на гостувания</li>
+            <li>Активен участник в онлайн форуми и дискусии за отбора</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="two">Умения</h2>
+        <ul type="square" class="skills">
+            <li>Страстен поддръжник</li>
+            <li>Обширни познания за историята и играчите на ФК Барселона</li>
+            <li>Отлично разбиране на футболната тактика и стратегия</li>
+            <li>Ефективна комуникация при обсъждане на теми, свързани с футбола</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="one">Контактна Информация</h2>
+        <p>Имейл: djamiang@abv.bg</p>
+        <p>Телефон: 0884351823 </p>
+    </section>
+
+    <section class="section">
+        <h2 class="two">Може да посетите:</h2>
+        <p><a href="http://www.fcbarcelona.com">Официален уебсайт на ФК Барселона</a></p>
+    </section>
+
+    <section class="section">
+        <h2 class="one">Допълнителна информация</h2>
+        <table>
+            <tr>
+                <th>Година</th>
+                <th>Събитие</th>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>Първо посещение на "Camp Nou"</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>Среща с любим играч - Лионел Меси</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section">
+        <h2 class="two">Моите трима любими футболисти:</h2>
+        <ol>
+            <li>Лионел Меси</li>
+            <li>Андрес Иниеста</li>
+            <li>Шави Ернандес</li>
+        </ol>
+    </section>
+
+    <section class="section">
+        <h2 class="one">Емблемата на отбора:</h2>
+        <img src="https://cache2.24chasa.bg/Images/Cache/144/Image_7077144_40_0.jpg" alt="Barca Logo">
+    </section>
+
+</body>
+<footer>
+    <script>
+        function updateCurrentTime() {
+    const now = new Date();
+    const day = now.getDay();
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    const seconds = now.getSeconds();
+    const currentTimeString = `${hours}:${minutes}:${seconds}`;
+    const currentTimeDisplay = document.getElementById('currentTimeDisplay');
+    currentTimeDisplay.textContent = currentTimeString;
+  }
+  setInterval(updateCurrentTime, 1000);
+  updateCurrentTime();
+    </script>
+</footer>
+</html>

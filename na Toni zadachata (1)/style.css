@@ -1,0 +1,34 @@
+body{
+    background-color: gainsboro;
+}
+
+.start{
+    color: cyan;
+}
+span{
+    color: darkseagreen;
+}
+button{
+    background-color: chartreuse;
+}
+.container{
+     overflow: auto;
+     width: 25%;
+     text-align: center;
+     position: relative;
+     left: 500px;
+    
+}
+.left-div{
+    width: 50%; 
+    float: left;
+    background-color: teal;
+    box-sizing: border-box;
+}
+
+.right-div{
+    width: 50%;
+    float: right;
+    background-color: turquoise;
+    box-sizing: border-box;
+}
