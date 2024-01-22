@@ -1,7 +1,9 @@
 function indexProba(){
 let word="Hello"
-for(let i=0;i<=word.length;i++)
+for(let i=word.length;i<=0;i++){
 console.log(i);
+}
+
 
 }
 indexProba();
