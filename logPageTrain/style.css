@@ -1,0 +1,56 @@
+body{
+    background-color: lightblue;
+}
+.box{
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    background-color: white;
+    padding: 60px;
+    border-radius: 10px;
+}
+.edno{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    padding-left:40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+span{
+    color: cornflowerblue;
+    position: relative;
+    left: 130px;
+    top: 13px;
+
+}
+input{
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+}
+input[type="text"]:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* Optionally, if you had a bottom border and wanted to remove it too */
+    outline: none; /* Removes the default focus outline */
+} 
+.ne{
+  position: relative;
+  top: 50px;
+}
+button{
+    position: relative;
+    top: 25px;
+    right: 5px;
+    padding: 10px 90px;
+}
+h1{
+    position: relative;
+    bottom: 30px;
+    left: 65px;
+} .edno{
+    color: gray;
+}
