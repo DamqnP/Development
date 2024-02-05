@@ -1,0 +1,6 @@
+=====
+Zadacha ofisi
+=====
+1.Da se napravi programa koqto suhranqva nabor ot magazini.
+2. Vseki magazin moje da sudurja ednakvi ili razlichni stoki.
+3. Pri vhod na stoka (input vuv funckiqta) programata trqbwa da vurne magazinite v koito se prodawa
