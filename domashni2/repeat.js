@@ -7,4 +7,4 @@ function repeatString(str, n) {
 }
 
 
-console.log(repeatString("abc", 3)); 
+console.log(repeatString("abc", 3));
